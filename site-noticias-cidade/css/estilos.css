@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: url(../img/fundo.png) repeat-x top left;
+    width: 100%;
+}
+
+#container{
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    min-width: 750px;
+}
+
+.clear{
+    clear: both;
+}
+
+.a-c{
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/* FORMATAÇÕES-GLOBAIS */
+
+p{
+    font-size: 1.6rem;
+}
+
+h3{
+    font-size: 2.2rem;
+    color: #FFF;
+    background-color:  #294c71;
+    padding: .1rem .3rem .3rem .3rem;
+    margin-bottom: 1rem;
+}
+
+h4{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #b10333;
+    padding: .1rem .3rem .3rem .3rem;
+    margin-bottom: 1rem;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* MARCADOR */
+
+.marcador .a-m .home a,
+.marcador .a-m .brasil a,
+.marcador .a-m .fotos a{
+    background-color: crimson;
+}
+
+/* HEADER */
+
+.a-h{
+    background: url(../img/detalhe-topo.png) no-repeat top right;
+}
+
+.a-h .a-lg{
+    margin-top: 2rem;
+}
+
+.a-h .a-m{
+    margin-top: 5rem;
+}
+
+.a-h .a-m ul{
+    list-style: none;
+}
+
+.a-h .a-m li{
+    float: left;
+}
+
+.a-h .a-m a{
+    display: block;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    color: #FFF;
+    background: url(../img/divisor.png) no-repeat left center;
+    background-color: #b10333;
+}
+
+.a-h .a-m a:hover{
+    color: #000;
+}
+
+.a-h .a-m .n-d a{
+    background-image: none;
+}
+
+/* COLUNAS */
+
+.col-2 .s-1 .c-p{ /* 2-colunas */
+    width: 495px;
+}
+
+.col-2 .s-1 .c-l{ /* 2-colunas */
+    width: 220px;
+}
+
+.col-1 .s-1 .c-p{ /* 3-colunas */
+    background: url(../img/fundo-caixa.png) center;
+    width: 750px;
+}
+
+/* SECTION-1 */
+
+.s-1{
+    margin-top: 5.5rem;
+    width: 100%;
+}
+
+.c-p:not(.c-m){
+    width: 30.65%;
+    float: left;
+    background: url(../img/fundo-caixa.png) center top;
+    margin-left: 235px;
+}
+
+.c-p{
+    padding: 1rem;
+}
+
+.c-p > div{
+    padding: .5rem .5rem .3rem .5rem;
+    background-color: #FFF;
+}
+
+.c-p  a{
+    color: #b10333;
+}
+
+.c-p a:hover{
+    text-decoration: underline;
+}
+
+.c-s{
+    width: 30.65%;
+    float: left;
+    background: url(../img/fundo-caixa.png) center top;
+    margin-left: 15px;
+    padding: 1rem;
+}
+
+.c-s > div{
+    padding: .5rem .5rem .3rem .5rem;
+    background-color: #FFF;
+}
+
+.c-s a{
+    color: #b10333;
+}
+
+.c-s a:hover{
+    text-decoration: underline;
+}
+
+.m-l{
+    float: left;
+    margin-left: -750px;
+    background: url(../img/fundo-caixa.png) center top;
+}
+
+.m-l:not(.n-f){
+    width: 200px;
+    padding: 1rem;
+}
+
+.s-1 .m-l .a-m-l{
+    font-size: 1.6rem;
+    text-align: left;
+    background-color: #FFF;
+    padding: .5rem;
+}
+
+.s-1 .m-l .a-m-l li{
+    float: none;
+}
+
+.s-1 .m-l .a-m-l a{
+    display: block;
+    padding: .50rem;
+    color: #000;
+    font-weight: 600;
+    margin: .35rem auto;
+}
+
+.s-1 .m-l .a-m-l a:hover{
+    color: #CCC;
+    background: url(../img/marcador.png) no-repeat left center;
+    text-indent: 1.5rem;
+}
+
+/* SECTION-2 */
+
+.s-2{
+    margin: 1rem auto 3rem auto;
+    width: 100%;
+}
+
+.s-2 .a-form{
+    width: 200px;
+    padding: 1rem;
+    background: url(../img/fundo-caixa.png) center;
+    float: left;
+}
+
+.s-2 .a-form > div{
+    padding: .5rem;
+    background-color: #FFF;
+}
+
+.s-2 .a-form input:not(.h-s){
+    width: 17.4rem;
+    padding: .7rem;
+    margin: .7rem 0;
+}
+
+.s-2 .a-form textarea{
+    width: 18.8rem;
+    resize: none;
+    height: 6rem;
+}
+
+.s-2 .d-s{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;;
+}
+
+.s-2 .h-s{
+    padding: .7rem 2rem;
+    border: 1px solid #b10333;
+    background-color: #b10333;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.s-2 .h-s:hover{
+    background-color: #FFF;
+    color: #b10333;
+    cursor: pointer;
+}
+
+.s-2 .a-m-c{
+    float: left;
+    width: 30.66%;
+    padding: 1.1rem 1rem;
+    background: url(../img/fundo-caixa.png) center;
+    margin-left: 1.5rem;
+}
+
+.a-m-c .a-b{
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-around;
+}
+
+.a-m-c .a-b .s-2-p{
+    margin: 1rem 0 0 1rem;
+}
+
+.a-m-c .a-b .s-2-img{
+    padding: 1rem .5rem .8rem .5rem;
+}
+
+.a-m-c .a-b .s-2-p p{
+    font-size: 1.4rem;
+}
+
+.a-m-c .a-b .s-2-p h5{
+    font-size: 1.24rem;
+    text-transform: uppercase;
+    color: #4082c9;
+}
+
+.a-m-c .a-b .s-2-p a{
+    color: #4082c9;
+}
+
+/* FOOTER */
+
+.a-f{
+    clear: both;
+    background-color: #294c71;
+    padding: 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    color: #FFF;
+}
